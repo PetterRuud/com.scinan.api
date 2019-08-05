@@ -1,0 +1,18 @@
+{
+  "name": "com.scinan.api",
+  "version": "1.0.0",
+  "description": "Support Prosmart wifi climate controllers",
+  "main": "app.js",
+  "scripts": {
+    "start": "athom app run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Petter Ruud",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^1.30.1",
+    "homey-log": "1.0.6",
+    "homey-wifidriver": "git+https://github.com/athombv/node-homey-wifidriver.git",
+    "node-fetch": "^2.6.0"
+  }
+}

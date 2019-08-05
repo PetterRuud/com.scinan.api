@@ -1,0 +1,351 @@
+{
+  "id": "com.scinan.api",
+  "version": "1.0.0",
+  "compatibility": ">=2.0.0",
+  "sdk": 2,
+  "name": {
+    "en": "Scinan Wifi"
+  },
+  "description": {
+    "en": "Support wifi climate controllers using scinan api"
+  },
+  "category": [
+    "climate"
+  ],
+  "tags": {
+    "en": [
+      "Profag",
+      "Prosmart",
+      "Saswell"
+    ]
+  },
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Petter Ruud",
+    "email": "petterruud@gmail.com"
+  },
+  "capabilities": {
+    "scinan_onoff": {
+			"type": "boolean",
+			"title": {
+				"en": "State"
+			},
+			"desc": {
+				"en": "State of the thermostat"
+			},
+			"getable": true,
+			"setable": false,
+			"greyout": true
+		},
+    "scinan_mode": {
+			"type": "enum",
+			"title": {
+				"en": "Thermostat mode",
+				"nl": "Thermostaat modus"
+			},
+			"desc": {
+				"en": "Mode of the thermostat",
+				"nl": "Modus van de thermostaat"
+			},
+			"values": [
+        {
+					"id": "Program",
+					"title": {
+						"en": "Program"
+					}
+				},
+				{
+					"id": "Comfort",
+					"title": {
+						"en": "Comfort"
+					}
+				},
+				{
+					"id": "Sleep",
+					"title": {
+						"en": "Sleep"
+					}
+				},
+				{
+					"id": "Away",
+					"title": {
+						"en": "Away"
+					}
+				},
+				{
+					"id": "Off",
+					"title": {
+						"en": "Off"
+					}
+				}
+			],
+			"getable": true,
+			"setable": true
+		}
+  },
+  "flow": {
+    "triggers": [
+      {
+          "id": "scinan_mode_changed",
+          "title": {
+              "en": "Thermostat mode has changed"
+          },
+          "args": [
+  					{
+  						"name": "device",
+  						"type": "device",
+  						"filter": "driver_id=scinan_thermostat"
+  					}
+  				],
+          "tokens": [
+            {
+              "name": "scinan_mode",
+              "type": "string",
+              "title": {
+                  "en": "Mode"
+              },
+              "example": "Comfort"
+            }
+          ]
+      },
+      {
+          "id": "scinan_mode_changed_to",
+          "title": {
+              "en": "Thermostat mode has changed to"
+          },
+          "args": [
+            {
+              "type": "dropdown",
+              "name": "scinan_mode",
+              "values": [
+        				{
+        					"id": "Comfort",
+        					"label": {
+        						"en": "Comfort"
+        					}
+        				},
+        				{
+        					"id": "Sleep",
+        					"label": {
+        						"en": "Sleep"
+        					}
+        				},
+        				{
+        					"id": "Away",
+        					"label": {
+        						"en": "Away"
+        					}
+        				},
+        				{
+        					"id": "Off",
+        					"label": {
+        						"en": "Off"
+        					}
+        				}
+              ]
+            },
+  					{
+  						"name": "device",
+  						"type": "device",
+  						"filter": "driver_id=scinan_thermostat"
+  					}
+          ]
+      }
+    ],
+    "conditions": [
+      {
+          "id": "scinan_is_heating",
+          "title": {
+              "en": "!{{Is|Isn't}} heating"
+          },
+          "args": [
+  					{
+  						"name": "device",
+  						"type": "device",
+  						"filter": "driver_id=scinan_thermostat"
+  					}
+  				]
+      },
+      {
+          "id": "scinan_mode_matching",
+          "title": {
+              "en": "Thermostat mode !{{is|isn't}}"
+          },
+          "args": [
+            {
+              "type": "dropdown",
+              "name": "scinan_mode",
+              "values": [
+                {
+        					"id": "Program",
+        					"label": {
+        						"en": "Program"
+        					}
+        				},
+        				{
+        					"id": "Comfort",
+        					"label": {
+        						"en": "Comfort"
+        					}
+        				},
+        				{
+        					"id": "Sleep",
+        					"label": {
+        						"en": "Sleep"
+        					}
+        				},
+        				{
+        					"id": "Away",
+        					"label": {
+        						"en": "Away"
+        					}
+        				},
+        				{
+        					"id": "Off",
+        					"label": {
+        						"en": "Off"
+        					}
+        				}
+              ]
+            },
+  					{
+  						"name": "device",
+  						"type": "device",
+  						"filter": "driver_id=scinan_thermostat"
+  					}
+  				]
+      }
+    ],
+    "actions": [
+      {
+        "id": "scinan_set_mode",
+        "title": {
+            "en": "Set thermostat mode"
+        },
+        "args": [
+          {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=scinan_thermostat"
+          },
+          {
+            "type": "dropdown",
+            "name": "scinan_mode",
+            "values": [
+              {
+      					"id": "Program",
+      					"label": {
+      						"en": "Program"
+      					}
+      				},
+      				{
+      					"id": "Comfort",
+      					"label": {
+      						"en": "Comfort"
+      					}
+      				},
+      				{
+      					"id": "Sleep",
+      					"label": {
+      						"en": "Sleep"
+      					}
+      				},
+      				{
+      					"id": "Away",
+      					"label": {
+      						"en": "Away"
+      					}
+      				},
+      				{
+      					"id": "Off",
+      					"label": {
+      						"en": "Off"
+      					}
+      				}
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "drivers": [
+    {
+      "id": "scinan_thermostat",
+      "name": {
+        "en": "Scinan Thermostat"
+      },
+      "class": "thermostat",
+      "capabilities": [
+        "measure_temperature",
+        "target_temperature",
+        "scinan_onoff",
+        "scinan_mode"
+      ],
+      "images": {
+        "large": "/drivers/scinan/assets/images/large.png",
+        "small": "/drivers/scinan/assets/images/small.png"
+      },
+      "pair":[
+        {
+          "id":"list_devices",
+          "template":"list_devices",
+          "navigation":{
+            "next":"add_device"
+          }
+        },
+        {
+          "id":"add_device",
+          "template":"add_devices"
+        }
+      ],
+      "mobile": {
+  			"components": [
+  				{
+  					"id": "icon",
+  					"capabilities": []
+  				},
+  				{
+  					"id": "sensor",
+  					"capabilities": [
+  						"measure_temperature",
+  						"scinan_onoff"
+  					],
+  					"options": {
+  						"icons": {
+  							"scinan_onoff": "/drivers/scinan_thermostat/assets/scinan_onoff.svg"
+  						},
+  						"scinan_onoff": {
+  							"noblink": false,
+  							"greyout": true,
+  							"label": {
+  								"true": {
+  									"en": "Active"
+  								},
+  								"false": {
+  									"en": "Idle"
+  								}
+  							}
+  						}
+  					}
+  				},
+  				{
+  					"id": "picker",
+  					"capabilities": [
+  						"scinan_mode"
+  					]
+  				},
+  				{
+  					"id": "thermostat",
+  					"capabilities": [
+  						"target_temperature"
+  					]
+  				}
+  			]
+  		}
+    }
+  ]
+}
