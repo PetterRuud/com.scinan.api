@@ -42,34 +42,33 @@
           // a method named 'onHomeyReady' must be present in your code
           function onHomeyReady( Homey ){
 
-// Tell Homey we're ready to be displayed
-  Homey.ready();
+            // Tell Homey we're ready to be displayed
+              Homey.ready();
 
-  var usernameElement = document.getElementById('username');
-  var passwordElement = document.getElementById('password');
-  var saveElement = document.getElementById('save');
+              var usernameElement = document.getElementById('username');
+              var passwordElement = document.getElementById('password');
+              var saveElement = document.getElementById('save');
 
-  Homey.get('username', function( err, username ) {
-   if( err ) return Homey.alert( err );
-usernameElement.value = username;
-});
+              Homey.get('username', function( err, username ) {
+              if( err ) return Homey.alert( err );
+            usernameElement.value = username;
+            });
 
-  Homey.get('password', function( err, password ) {
-   if( err ) return Homey.alert( err );
-passwordElement.value = password;
-});
+              Homey.get('password', function( err, password ) {
+              if( err ) return Homey.alert( err );
+            passwordElement.value = password;
+            });
 
-saveElement.addEventListener('click', function(e) {
+            saveElement.addEventListener('click', function(e) {
 
-    Homey.set('username', usernameElement.value, function( err ){
-      if( err ) return Homey.alert( err );
-    });
-    Homey.set('password', passwordElement.value, function( err ){
-      if( err ) return Homey.alert( err );
-    });
-
-});
-}
+                Homey.set('username', usernameElement.value, function( err ){
+                  if( err ) return Homey.alert( err );
+                });
+                Homey.set('password', passwordElement.value, function( err ){
+                  if( err ) return Homey.alert( err );
+                });
+              });
+            }
         </script>
 
     </body>

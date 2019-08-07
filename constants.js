@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports.SCINAN_API_URL = 'https://api.scinan.com/';
-module.exports.SCINAN_TOKEN_URL = 'https://api.home.nest.com/oauth2/access_token';
-module.exports.SCINAN_REDIRECT_URL = 'https://callback.athom.com/oauth2/callback/';
-module.exports.SCINAN_AUTHORIZATION_URL = 'https://api.scinan.com/oauth2/authorize';
+module.exports.LIST_URL = 'https://api.scinan.com/v1.0/devices/list';
+module.exports.AUTHORIZATION_URL = 'https://api.scinan.com/oauth2/authorize';
+module.exports.USER_AGENT = "Thermostat/3.1.0 (iPhone; iOS 11.3; Scale/3.00)";
+module.exports.CLIENT_ID = "100002";
