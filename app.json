@@ -4,31 +4,39 @@
   "compatibility":">=2.0.0",
   "sdk":2,
   "name":{
-     "en":"Scinan Wifi"
+     "en":"Scinan IoT API"
   },
   "description":{
-     "en":"Support wifi climate controllers using scinan api"
+     "en":"Support IoT devices/controllers using Scinan IoT api. Add thermostats from Saswell, Prosmart and other brands using the Scinan IoT API."
   },
   "category":[
      "climate"
   ],
   "tags":{
      "en":[
-        "Profag",
         "Prosmart",
         "Saswell"
      ]
   },
   "permissions":[
-
   ],
   "images":{
-     "large":"/assets/images/large.png",
-     "small":"/assets/images/small.png"
+     "large":"/assets/images/large.jpg",
+     "small":"/assets/images/small.jpg"
   },
   "author":{
      "name":"Petter Ruud",
      "email":"petterruud@gmail.com"
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "paypal.me/petterruud"
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/PetterRuud/com.scinan.api/issues"
   },
   "capabilities":{
      "mode":{
