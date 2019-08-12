@@ -1,8 +1,8 @@
-# Prosmart
+# Scinan IoT API
+Support wifi climate controllers using the Scinan API
 
-Support Prosmart wifi climate controllers
+### Saswell
+SAS920FHL-7W-WIFI
 
-
-
-    SAS920FHL-7W-WIFI 适用于电暖
-SAS920WHL-7W-WIFI 适用于水暖
+### Prosmart
+Kontroller PST50W, WiFi
