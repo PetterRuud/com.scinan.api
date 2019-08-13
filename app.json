@@ -81,13 +81,13 @@
   },
   "drivers":[
      {
-        "id":"scinan",
+        "id":"SAS920FHL7WWIFI",
         "name":{
-           "en":"Scinan"
+           "en":"Saswell SAS920FHL-7W-WIFI"
         },
         "images":{
-           "small":"drivers/scinan/assets/images/small.jpg",
-           "large":"drivers/scinan/assets/images/large.jpg"
+           "small":"drivers/SAS920FHL7WWIFI/assets/images/small.jpg",
+           "large":"drivers/SAS920FHL7WWIFI/assets/images/large.jpg"
         },
         "class":"thermostat",
         "capabilities":[
