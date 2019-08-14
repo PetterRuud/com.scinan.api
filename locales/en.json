@@ -1,12 +1,2 @@
 {
-  "pair": {
-		"title": "Add Scinan thermostat",
-    "intro": "If a valid Scinan account is configured in the app settings sections of Homey, the thermostat in your Scinan account will be listed.",
-		"buttonClose": "Close",
-		"messages": {
-			"busyValidation": "Validation account settings...",
-			"busyGetHeaters": "Get thermostat from account...",
-      "notAuthorized": "Please enter correct Scinan credentials in Settings before you try to pair new devices"
-		}
-  }
 }

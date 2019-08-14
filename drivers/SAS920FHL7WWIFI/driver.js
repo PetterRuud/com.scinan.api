@@ -1,9 +1,7 @@
-"use strict";
+'use strict';
 
 const ScinanDriver = require('../../lib/ScinanDriver.js');
 
-class ScinanSensorDriver extends ScinanDriver {
+class SAS920FHL7WWIFIDriver extends ScinanDriver {}
 
-}
-
-module.exports = ScinanSensorDriver;
+module.exports = SAS920FHL7WWIFIDriver;

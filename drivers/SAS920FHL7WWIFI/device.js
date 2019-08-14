@@ -2,7 +2,6 @@
 
 const ScinanDevice = require('../../lib/ScinanDevice.js');
 
-class ScinanSensorDevice extends ScinanDevice {
-}
+class SAS920FHL7WWIFIDevice extends ScinanDevice {}
 
-module.exports = ScinanSensorDevice;
+module.exports = SAS920FHL7WWIFIDevice;
