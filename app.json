@@ -1,7 +1,7 @@
 {
   "id": "com.scinan.api",
   "version": "1.0.2",
-  "compatibility": ">=2.0.0",
+  "compatibility": ">=3.0.0",
   "sdk": 2,
   "name": {
     "en": "Scinan"
@@ -95,6 +95,11 @@
         "measure_temperature",
         "away"
       ],
+      "capabilitiesOptions": {
+        "measure_power": {
+          "approximated": true
+        }
+      },
       "pair": [
         {
           "id": "start",
@@ -160,6 +165,11 @@
         "measure_temperature",
         "away"
       ],
+      "capabilitiesOptions": {
+        "measure_power": {
+          "approximated": true
+        }
+      },
       "pair": [
         {
           "id": "start",
