@@ -2,7 +2,7 @@ const Homey = require('homey');
 
 class ScinanApp extends Homey.App {
   onInit() {
-    this.log('Successfully init Scinan version: %s', Homey.app.manifest.version);
+    this.log('Successfully init Scinan version:', Homey.app.manifest.version);
   }
 }
 

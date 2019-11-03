@@ -23,9 +23,12 @@ These two are the ones I know of as I have them myself. There are probably more 
 
 ## Release notes
 
-1.2
+1.3
 - Added support for Homey Energy
 - Fixed sync
+
+1.2
+- Small fixes
 
 1.1
 - Added mode

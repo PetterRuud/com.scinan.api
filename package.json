@@ -1,6 +1,6 @@
 {
   "name": "com.scinan.api",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Support Prosmart wifi climate controllers",
   "main": "app.js",
   "scripts": {
@@ -10,7 +10,6 @@
   "author": "Petter Ruud",
   "license": "ISC",
   "dependencies": {
-    "homey-log": "1.0.6",
     "node-fetch": "^2.6.0"
   }
 }
