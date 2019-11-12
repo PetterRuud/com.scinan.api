@@ -23,6 +23,9 @@ These two are the ones I know of as I have them myself. There are probably more 
 
 ## Release notes
 
+1.4
+- Added Norwegian Locale
+
 1.3
 - Added support for Homey Energy
 - Fixed sync

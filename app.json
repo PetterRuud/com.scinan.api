@@ -1,10 +1,11 @@
 {
   "id": "com.scinan.api",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "compatibility": ">=3.0.0",
   "sdk": 2,
   "name": {
-    "en": "Scinan"
+    "en": "Scinan",
+    "no": "Scinan"
   },
   "description": {
     "en": "Support IoT devices/controllers using Scinan api. Add thermostats from Saswell, Prosmart and other brands thats are using the Scinan API."
@@ -14,6 +15,10 @@
   ],
   "tags": {
     "en": [
+      "Profag",
+      "Saswell"
+    ],
+    "no": [
       "Profag",
       "Saswell"
     ]
@@ -41,7 +46,8 @@
     "mode": {
       "type": "enum",
       "title": {
-        "en": "Function Mode"
+        "en": "Function Mode",
+        "no": "Funskjoner"
       },
       "getable": true,
       "setable": true,
@@ -51,19 +57,22 @@
         {
           "id": "auto",
           "title": {
-            "en": "Auto"
+            "en": "Auto",
+            "no": "Auto"
           }
         },
         {
           "id": "comfort",
           "title": {
-            "en": "Comfort"
+            "en": "Comfort",
+            "no": "Komfort"
           }
         },
         {
           "id": "day_or_night",
           "title": {
-            "en": "Day or Night"
+            "en": "Day or Night",
+            "no": "Dag eller natt"
           }
         }
       ]
@@ -71,7 +80,8 @@
     "away": {
       "type": "boolean",
       "title": {
-        "en": "Away"
+        "en": "Away",
+        "no": "Borte"
       },
       "getable": true,
       "setable": true
@@ -81,7 +91,8 @@
     {
       "id": "SAS920FHL7WWIFI",
       "name": {
-        "en": "Saswell SAS920FHL-7W-WIFI"
+        "en": "Saswell SAS920FHL-7W-WIFI",
+        "no": "Saswell SAS920FHL-7W-WIFI"
       },
       "images": {
         "small": "drivers/SAS920FHL7WWIFI/assets/images/small.jpg",
@@ -131,14 +142,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Update device time"
+            "en": "Update device time",
+            "no": "Oppdater intervall for henting av data"
           },
           "children": [
             {
               "id": "interval",
               "type": "number",
               "label": {
-                "en": "minutes"
+                "en": "minutes",
+                "no": "minutter"
               },
               "value": 15,
               "min": 5,
@@ -151,7 +164,8 @@
     {
       "id": "PST50W",
       "name": {
-        "en": "Profag PST50W"
+        "en": "Profag PST50W",
+        "no": "Profag PST50W"
       },
       "images": {
         "small": "drivers/PST50W/assets/images/small.jpg",
@@ -201,14 +215,16 @@
         {
           "type": "group",
           "label": {
-            "en": "Update device time"
+            "en": "Update device time",
+            "no": "Oppdater intervall for henting av data"
           },
           "children": [
             {
               "id": "interval",
               "type": "number",
               "label": {
-                "en": "minutes"
+                "en": "minutes",
+                "no": "minutter"
               },
               "value": 15,
               "min": 5,
