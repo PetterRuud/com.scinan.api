@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "athom app run",
+    "install": "athom app install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Petter Ruud",
