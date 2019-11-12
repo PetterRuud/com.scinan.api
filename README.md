@@ -37,4 +37,4 @@ These two are the ones I know of as I have them myself. There are probably more 
 - Added mode
 
 1.0
-- Iniital
+- Initial
