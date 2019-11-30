@@ -42,6 +42,7 @@
   "bugs": {
     "url": "https://github.com/PetterRuud/com.scinan.api/issues"
   },
+  "source": "https://github.com/PetterRuud/com.scinan.api",
   "capabilities": {
     "mode": {
       "type": "enum",
