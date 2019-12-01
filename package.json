@@ -4,9 +4,9 @@
   "description": "Support Prosmart wifi climate controllers",
   "main": "app.js",
   "scripts": {
-    "start": "athom app run",
-    "install": "athom app install",
-    "install:clean": "athom app install -c",
+    "start": "homey app run",
+    "install": "homey app install",
+    "install:clean": "homey app install -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Petter Ruud",
