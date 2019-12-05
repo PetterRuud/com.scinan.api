@@ -20,6 +20,7 @@ These two are the ones I know of as I have them myself. There are probably more 
 
 ## Supported Languages:
  - English
+ - Norwegian
 
 ## Release notes
 

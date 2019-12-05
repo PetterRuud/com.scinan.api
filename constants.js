@@ -5,6 +5,14 @@ module.exports.MODES = {
   AUTO: 'auto',
   DAY_OR_NIGHT: 'day_or_night',
 };
+
+module.exports.SENSORS = {
+  ON_OFF: '01',
+  TARGET_TEMPERATURE: '02',
+  AWAY: '03',
+  MODE: '12',
+};
+
 module.exports.LIST_URL = 'https://api.scinan.com/v1.0/devices/list';
 module.exports.AUTHORIZATION_URL = 'https://api.scinan.com/oauth2/authorize';
 module.exports.CONTROL_URL = 'https://api.scinan.com/v1.0/sensors/control';
