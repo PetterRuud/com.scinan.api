@@ -1,6 +1,6 @@
 {
   "id": "com.scinan.api",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "compatibility": ">=3.0.0",
   "sdk": 2,
   "name": {
@@ -85,7 +85,10 @@
         "no": "Borte"
       },
       "getable": true,
-      "setable": true
+      "setable": true,
+      "uiQuickAction": true,
+      "uiComponent": "toggle",
+      "icon": "/assets/away.svg"
     }
   },
   "drivers": [

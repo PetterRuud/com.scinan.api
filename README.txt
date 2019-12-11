@@ -1,16 +1,16 @@
-# Scinan
+Scinan
 Support wifi climate controllers using the Scinan API https://api.scinan.com.
 
-## Supported Devices
+Supported Devices
 These two are the ones I know of as I have them myself. There are probably more devices supported. Open a issue and I'll try to find out.
 
-#### Saswell
+Saswell
  - SAS920FHL-7W-WIFI
 
-#### Prosmart
+Prosmart
  - PST50W
 
-## Supported features
+Supported features
  - [x] Turn On/Off
  - [x] Set Away/Home
  - [x] View/Set target temperature
@@ -18,6 +18,6 @@ These two are the ones I know of as I have them myself. There are probably more 
  - [x] View/Set mode (Comfort, Day or Night or Auto)
  - [ ] Program
 
-## Supported Languages:
+Supported Languages:
  - English
  - Norwegian
