@@ -4,5 +4,8 @@
   },
   "1.0.5": {
     "en": "New icon"
+  },
+  "1.0.7": {
+    "en": "fixing bug that made the app crash in som cases"
   }
 }

@@ -1,6 +1,6 @@
 {
   "id": "com.scinan.api",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "compatibility": ">=3.0.0",
   "sdk": 2,
   "name": {
@@ -86,7 +86,6 @@
       },
       "getable": true,
       "setable": true,
-      "uiQuickAction": true,
       "uiComponent": "toggle",
       "icon": "/assets/away.svg"
     }
