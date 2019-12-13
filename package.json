@@ -8,7 +8,7 @@
     "build": "homey app build",
     "publish": "homey app publish",
     "validate": "homey app validate",
-    "update": "npm version patch && homey app update --patch",
+    "update": "homey app version patch",
     "install": "homey app install",
     "install:clean": "homey app install -c",
     "test": "echo \"Error: no test specified\" && exit 1"
