@@ -107,7 +107,8 @@
         "mode",
         "target_temperature",
         "measure_temperature",
-        "away"
+        "away",
+        "measure_power"
       ],
       "capabilitiesOptions": {
         "measure_power": {
@@ -161,6 +162,26 @@
               "max": 60
             }
           ]
+        },
+        {
+          "type": "group",
+          "label": {
+            "en": "square meters of the heating floor",
+            "no": "Hvor mange kvadradmeter varmefolie"
+          },
+          "children": [
+            {
+              "id": "m2",
+              "type": "number",
+              "label": {
+                "en": "m2",
+                "no": "m2"
+              },
+              "value": 1,
+              "min": 1,
+              "max": 99
+            }
+          ]
         }
       ]
     },
@@ -180,7 +201,8 @@
         "mode",
         "target_temperature",
         "measure_temperature",
-        "away"
+        "away",
+        "measure_power"
       ],
       "capabilitiesOptions": {
         "measure_power": {
@@ -232,6 +254,26 @@
               "value": 15,
               "min": 5,
               "max": 60
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "label": {
+            "en": "square meters of the heating floor",
+            "no": "Hvor mange kvadradmeter varmefolie"
+          },
+          "children": [
+            {
+              "id": "m2",
+              "type": "number",
+              "label": {
+                "en": "m2",
+                "no": "m2"
+              },
+              "value": 1,
+              "min": 1,
+              "max": 99
             }
           ]
         }
