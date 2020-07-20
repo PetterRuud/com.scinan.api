@@ -1,0 +1,12 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Away",
+    "no": "Borte"
+  },
+  "getable": true,
+  "setable": true,
+  "uiQuickAction": true,
+  "uiComponent": "toggle",
+  "icon": "/assets/away.svg"
+}

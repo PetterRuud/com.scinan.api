@@ -1,0 +1,33 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Function Mode",
+    "no": "Funskjoner"
+  },
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "values": [
+    {
+      "id": "auto",
+      "title": {
+        "en": "Auto",
+        "no": "Auto"
+      }
+    },
+    {
+      "id": "comfort",
+      "title": {
+        "en": "Comfort",
+        "no": "Komfort"
+      }
+    },
+    {
+      "id": "day_or_night",
+      "title": {
+        "en": "Day or Night",
+        "no": "Dag eller natt"
+      }
+    }
+  ]
+}

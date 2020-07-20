@@ -1,0 +1,46 @@
+{
+  "id": "com.scinan.api",
+  "version": "1.0.8",
+  "compatibility": ">=3.0.0",
+  "sdk": 2,
+  "name": {
+    "en": "Scinan",
+    "no": "Scinan"
+  },
+  "description": {
+    "en": "Support IoT devices/controllers using Scinan api. Add thermostats from Saswell, Prosmart and other brands thats are using the Scinan API."
+  },
+  "category": [
+    "climate"
+  ],
+  "tags": {
+    "en": [
+      "Profag",
+      "Saswell"
+    ],
+    "no": [
+      "Profag",
+      "Saswell"
+    ]
+  },
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.jpg",
+    "small": "/assets/images/small.jpg"
+  },
+  "author": {
+    "name": "Petter Ruud",
+    "email": "petterruud@gmail.com"
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "petterruud"
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/PetterRuud/com.scinan.api/issues"
+  },
+  "source": "https://github.com/PetterRuud/com.scinan.api"
+}
