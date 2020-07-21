@@ -1,0 +1,94 @@
+{
+  "id": "PGUDLQHKITEU",
+  "name": {
+    "en": "Pergo Quickheat Wifi",
+    "no": "Pergo Quickheat Trådløs"
+  },
+  "images": {
+    "small": "drivers/PGUDLQHKITEU/assets/images/small.jpg",
+    "large": "drivers/PGUDLQHKITEU/assets/images/large.jpg"
+  },
+  "class": "thermostat",
+  "capabilities": [
+    "onoff",
+    "mode",
+    "target_temperature",
+    "measure_temperature",
+    "away",
+    "measure_power"
+  ],
+  "capabilitiesOptions": {
+    "measure_power": {
+      "approximated": true
+    }
+  },
+  "pair": [
+    {
+      "id": "start",
+      "template": "login_credentials",
+      "navigation": {
+        "next": "list_my_devices"
+      },
+      "options": {
+        "logo": "pair_logo.svg",
+        "usernameLabel": "Profag account",
+        "usernamePlaceholder": "user@domain.com",
+        "passwordLabel": "Password",
+        "passwordPlaceholder": "Password"
+      }
+    },
+    {
+      "id": "list_my_devices",
+      "template": "list_devices",
+      "navigation": {
+        "next": "add_my_devices"
+      }
+    },
+    {
+      "id": "add_my_devices",
+      "template": "add_devices"
+    }
+  ],
+  "settings": [
+    {
+      "type": "group",
+      "label": {
+        "en": "Update device time",
+        "no": "Oppdater intervall for henting av data"
+      },
+      "children": [
+        {
+          "id": "interval",
+          "type": "number",
+          "label": {
+            "en": "minutes",
+            "no": "minutter"
+          },
+          "value": 15,
+          "min": 5,
+          "max": 59
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "label": {
+        "en": "square meters of the heating floor",
+        "no": "Hvor mange kvadradmeter varmefolie"
+      },
+      "children": [
+        {
+          "id": "m2",
+          "type": "number",
+          "label": {
+            "en": "m2",
+            "no": "m2"
+          },
+          "value": 1,
+          "min": 1,
+          "max": 99
+        }
+      ]
+    }
+  ]
+}

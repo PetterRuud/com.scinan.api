@@ -8,7 +8,7 @@
     "no": "Scinan"
   },
   "description": {
-    "en": "Support IoT devices/controllers using Scinan api. Add thermostats from Saswell, Prosmart and other brands thats are using the Scinan API."
+    "en": "Support IoT devices/controllers using Scinan api. Add thermostats from Saswell, Prosmart, Pergo Quickheat and other brands thats are using the Scinan API."
   },
   "category": [
     "climate"
@@ -16,10 +16,12 @@
   "tags": {
     "en": [
       "Profag",
+      "Pergo Quickheat",
       "Saswell"
     ],
     "no": [
       "Profag",
+      "Pergo Quickheat",
       "Saswell"
     ]
   },
