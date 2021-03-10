@@ -13,5 +13,8 @@
   },
   "1.0.9": {
     "en": "Added Pergo Quickheat and changed back from Crontasks to setInterval"
+  },
+  "1.0.10": {
+    "en": "Using SDK 3"
   }
 }
