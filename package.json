@@ -1,15 +1,14 @@
 {
   "name": "com.scinan.api",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Support Prosmart wifi climate controllers",
   "main": "app.js",
   "scripts": {
     "start": "homey app run",
     "start:clean": "homey app run -c",
     "build": "homey app build",
-    "publish": "homey app publish",
     "validate": "homey app validate",
-    "update": "homey app version patch",
+    "update": "homey app version patch && homey app publish",
     "install": "homey app install",
     "install:clean": "homey app install -c",
     "test": "echo \"Error: no test specified\" && exit 1"
