@@ -19,5 +19,8 @@
   },
   "1.0.11": {
     "en": "Bugfixes for the new SDK"
+  },
+  "1.0.13": {
+    "en": "added availability and fixed a few bugs"
   }
 }
