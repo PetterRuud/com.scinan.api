@@ -1,3 +1,6 @@
+# Not in active development.
+I moved and dont have need for this app more so I will not work any further on this. I'll be happy to add you as a maintainer, just contact me.
+
 # Scinan
 Support wifi climate controllers using the Scinan API https://api.scinan.com.
 
