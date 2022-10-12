@@ -2,7 +2,7 @@
   "type": "enum",
   "title": {
     "en": "Function Mode",
-    "no": "Funskjoner"
+    "no": "Funksjoner"
   },
   "getable": true,
   "setable": true,
