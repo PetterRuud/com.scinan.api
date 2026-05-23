@@ -193,5 +193,8 @@
   },
   "2.5.5": {
     "en": "fixed an error on settings siplay"
+  },
+  "2.6.0": {
+    "en": "Improved Saswell v2 stability and deprecated Smart-E pairing. Existing Smart-E devices are now handled more gracefully when the old v1 service is unavailable."
   }
 }
