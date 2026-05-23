@@ -661,6 +661,7 @@
           ]
         }
       ],
+      "deprecated": true,
       "id": "SMARTE_THERMOSTAT"
     }
   ],

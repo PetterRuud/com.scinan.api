@@ -89,5 +89,6 @@
         }
       ]
     }
-  ]
+  ],
+  "deprecated": true
 }
