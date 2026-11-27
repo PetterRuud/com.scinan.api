@@ -1,0 +1,19 @@
+{
+  "lan": {
+    "cloud": "Cloud",
+    "connecting": "Connecting to thermostat over LAN…",
+    "searching": "Looking for the thermostat on your local network…",
+    "wrongDevice": "Cloud backup. The IP address belongs to a different thermostat.",
+    "duplicate": "Cloud backup. Another Homey device is already using this thermostat over LAN.",
+    "fallback": "Cloud backup. The LAN connection was lost.",
+    "local": "LAN connected at __address__",
+    "manual": "Cloud backup. Enter the thermostat’s local IP address.",
+    "invalidAddress": "Enter a private IPv4 address, such as 192.168.1.50, or leave the field blank.",
+    "cloudUnavailable": "Saswell cloud access is unavailable. Sign in to a Saswell v2 account to use cloud control.",
+    "cloudUnreachable": "Homey lost the LAN connection and cannot reach the Saswell cloud.",
+    "cloudDeviceMissing": "This thermostat was not found in the connected Saswell v2 account.",
+    "deviceInactive": "This Homey device is no longer active.",
+    "commandUnsupported": "This thermostat does not support that command.",
+    "commandUnconfirmed": "The thermostat did not confirm this change. Check its current state before retrying."
+  }
+}

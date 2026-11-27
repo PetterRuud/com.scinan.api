@@ -36,33 +36,6 @@
       "approximated": true
     }
   },
-  "pair": [
-    {
-      "id": "start",
-      "template": "login_credentials",
-      "navigation": {
-        "next": "list_my_devices"
-      },
-      "options": {
-        "logo": "pair_logo.svg",
-        "usernameLabel": "Profag account",
-        "usernamePlaceholder": "user@domain.com",
-        "passwordLabel": "Password",
-        "passwordPlaceholder": "Password"
-      }
-    },
-    {
-      "id": "list_my_devices",
-      "template": "list_devices",
-      "navigation": {
-        "next": "add_my_devices"
-      }
-    },
-    {
-      "id": "add_my_devices",
-      "template": "add_devices"
-    }
-  ],
   "settings": [
     {
       "type": "group",

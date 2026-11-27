@@ -6,6 +6,7 @@ lib/SaswellDriver.js
 lib/ScinanDevice.js
 lib/ScinanDriver.js
 test.js
+/.docs/
 
 # Added by Homey CLI
 /.homeybuild/

@@ -2,8 +2,6 @@
 
 const SaswellDriverV2 = require('../../lib/SaswellDriverV2.js');
 
-class PGUDLQHKITEUDriver extends SaswellDriverV2 {    
-    static APIVersion = "1";
-}
+class PGUDLQHKITEUDriver extends SaswellDriverV2 {}
 
 module.exports = PGUDLQHKITEUDriver;

@@ -38,8 +38,8 @@
     }
   ],
   "description": {
-    "en": "Support IoT devices/controllers using Saswell/Scinan API.",
-    "no": "Støtter IoT apparater med Saswell/Scinan API. "
+		"en": "Supports thermostats using the Saswell v2 service.",
+		"no": "Støtter termostater som bruker Saswell v2."
   },
   "category": [
     "climate"

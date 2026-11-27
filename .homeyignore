@@ -2,3 +2,4 @@ lib\SaswellDevice.js
 lib\SaswellDriver.js
 lib\ScinanDevice.js
 lib\ScinanDriver.js
+tests/

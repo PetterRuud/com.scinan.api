@@ -1,0 +1,19 @@
+{
+  "lan": {
+    "cloud": "Skytilkobling",
+    "connecting": "Kobler til termostaten på lokalnettet …",
+    "searching": "Ser etter termostaten på lokalnettet …",
+    "wrongDevice": "Bruker skyen. IP-adressen tilhører en annen termostat.",
+    "duplicate": "Bruker skyen. En annen Homey-enhet bruker allerede lokal tilkobling til denne termostaten.",
+    "fallback": "Bruker skyen. Tilkoblingen til lokalnettet ble brutt.",
+    "local": "Tilkoblet via lokalnettet på __address__",
+    "manual": "Bruker skyen. Skriv inn termostatens lokale IP-adresse.",
+    "invalidAddress": "Skriv inn en privat IPv4-adresse, for eksempel 192.168.1.50, eller la feltet stå tomt.",
+    "cloudUnavailable": "Saswell-skyen er utilgjengelig. Logg inn med en Saswell v2-konto for å styre termostaten via skyen.",
+    "cloudUnreachable": "Homey mistet tilkoblingen til lokalnettet og får ikke kontakt med Saswell-skyen.",
+    "cloudDeviceMissing": "Termostaten finnes ikke i den tilkoblede Saswell v2-kontoen.",
+    "deviceInactive": "Denne Homey-enheten er ikke lenger aktiv.",
+    "commandUnsupported": "Termostaten støtter ikke denne kommandoen.",
+    "commandUnconfirmed": "Termostaten bekreftet ikke endringen. Sjekk statusen før du prøver igjen."
+  }
+}

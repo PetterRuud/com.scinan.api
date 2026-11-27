@@ -11,7 +11,7 @@
     "update": "homey app version patch && homey app publish",
     "install": "homey app install",
     "install:clean": "homey app install -c",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test tests/*.test.js"
   },
   "author": "Petter Ruud, late4marshmellow",
   "license": "ISC",

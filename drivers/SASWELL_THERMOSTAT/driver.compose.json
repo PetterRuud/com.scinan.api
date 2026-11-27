@@ -70,6 +70,51 @@
     {
       "type": "group",
       "label": {
+        "en": "Local network",
+        "no": "Lokalt nettverk"
+      },
+      "children": [
+        {
+          "id": "localEnabled",
+          "type": "checkbox",
+          "label": {
+            "en": "Use local network",
+            "no": "Bruk lokalt nettverk"
+          },
+          "hint": {
+            "en": "Use a direct connection for a supported thermostat, with Saswell cloud as a backup.",
+            "no": "Koble direkte til en støttet termostat, med Saswell-skyen som reserve."
+          },
+          "value": false,
+          "highlight": true
+        },
+        {
+          "id": "localIp",
+          "type": "text",
+          "label": {
+            "en": "Thermostat IP address",
+            "no": "Termostatens IP-adresse"
+          },
+          "hint": {
+            "en": "Leave blank for discovery, or enter the thermostat's local IPv4 address.",
+            "no": "La feltet stå tomt for automatisk søk, eller skriv inn termostatens lokale IPv4-adresse."
+          },
+          "value": ""
+        },
+        {
+          "id": "localStatus",
+          "type": "label",
+          "label": {
+            "en": "Connection status",
+            "no": "Tilkoblingsstatus"
+          },
+          "value": ""
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "label": {
         "en": "Update device time",
         "no": "Oppdater intervall for henting av data"
       },

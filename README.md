@@ -1,16 +1,14 @@
 # Saswell and Scinan Controllers
-Support wifi climate controllers using the Scinan or Saswell API
+Control Wi-Fi thermostats through the Saswell v2 cloud API used by the Saswell Thermostat app.
 
-# Saswell
-Support wifi climate controllers using the Saswell API https://api.saswell.com.cn
+## Pairing and local access
 
-# Scinan
-Support wifi climate controllers using the Scinan API https://api.scinan.com.
+Add the thermostat to your Saswell account first, then pair it in Homey through the Saswell Thermostat driver. Existing Homey devices keep their pairing and Flows.
+
+The SAS920FHL-7W-WIFI (device type 9) can also connect directly from Homey Pro over the local network. Enable **Use local network** during pairing or in the device's **Advanced Settings**. Homey looks for the thermostat on its local subnet and checks its device ID before using LAN. If the saved IP stops working, the app checks Homey's MAC discovery results for a new address before starting a subnet sweep. Every candidate must pass the same device ID check. If discovery cannot find it, enter its local IPv4 address under **Thermostat IP address**. Saswell v2 provides backup when available.
 
 ## Supported Devices
-It seems that this app will work with any device that make use of the Scinan or Saswell Api and/or the Smart-E / Thermostat app on Iphone/Android
-
-There are probably more devices supported. Open a issue and I'll try to find out.
+The thermostats below have been reported to work with the app. Cloud support requires the device to be listed in a Saswell Thermostat account.
 
 
 #### Saswell
